@@ -4,7 +4,76 @@ Andrew Sims and Seep Gulati
 
 [Github Repository](https://github.com/andrewcameronsims/opengallery)
 
-## Short Answer Questions
+### Site Map
+![](./docs/sitemap.png)
+
+### Functionality
+- Open Gallery allows users to browse art pieces.
+- Open Gallery allows user to interact with Open Gallery admin through Contact Us form in the footer.
+- Open Gallery allows artists to sell their art pieces and also buy art pieces from other artists. 
+- Open Gallery allows the signed-in users to buy art pieces.
+- Open Gallery allows the signed-in users to follow their favourite artists.
+- Open Gallery allows the signed-in users to contact the artists through a form.
+- Open Gallery allows the signed-in users to contact the artists in-built contact form.
+
+### Screenshots
+
+![](./docs/landing-page1.png)
+![](./docs/landing-page2.png)
+![](./docs/piece.png)
+![](./docs/sign-up.png)
+
+### Inspiration
+
+We were inspired by other two-marketplaces and particularly those dealing with
+arts and crafts, such as [Etsy](https://www.etsy.com/) and 
+[Bluethumb](https://bluethumb.com.au/).
+
+### Technology Stack
+
+Open Gallery is built using Ruby-on-Rails, with Ruby as the serverside language
+and HTML and CSS for the front-end markup. We run a Postgresql instance as our database.
+We also used some minimal javascript and jQuery for AJAX requests. The app is 
+deployed on Heroku.
+
+## Installation
+
+1. Navigate to a location where you want to install the source and run `git clone https://github.com/andrewcameronsims/opengallery.git`
+
+2. Reset the database using `rails run db:reset`
+
+3. Run `rails server` to run the server in development mode.
+
+### Colours
+
+We have used Orange as our main colour through-out our application. Orange blends well with timeless Black and White combination.
+
+Orange has been used for its association with ‘creativity’, ‘fascination’,‘stimulation’ and ‘contemporary’ feelings. As an online-visual art gallery for amateur artists standing out was important and orange with its high-visibility power helps in catching attention and highlighting the most important elements of our website design.
+
+![](./docs/mood-board.png)
+
+### Logo
+
+We came-up with few renditions of logo and decided the simple option with 
+‘Playfair font’ and brand colours.
+
+![](./docs/logo-options.png)
+
+### Wireframe sketches
+
+![](./docs/sketches.jpg)
+
+### Workflow Diagram
+
+![](./docs/workflow-diagram.png)
+
+### Wireframes
+
+![](./docs/wireframes.png)
+
+### ERDs
+
+![](./docs/database.png)
 
 ### 1. What is the need (i.e., challenge) that you will be addressing in your project?
 
